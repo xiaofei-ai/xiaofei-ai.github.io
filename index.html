@@ -1,328 +1,381 @@
-<p>Hello 大家好</p>
-<p>我是chang，这是我的个人网站。 </p>
-<p>很高兴你来到这里, 你可以在以下的网站找到我</p>
-Skip to content
-搜索或跳转到…
-Pull requests
-议题
-应用商城
-探索
- 
-@xiaofei-ai 
-lambertlt
-/
-videos
-公共
-代码
-议题
-拉取请求
-操作
-项目
-Wiki
-安全
-统计
-videos/index.html
-@lambertlt
-lambertlt Update index.html
-Latest commit 4633ed4 on 8 Aug 2020
- History
- 1 contributor
-216 lines (193 sloc)  5.22 KB
+<!doctype html>
+<html>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		全民VIP视频解析-全网VIP视频在线解析
+	</title>
+	<meta name="keywords" content="腾讯vip解析,爱奇艺vip解析,优酷vip解析,芒果vip解析,乐视vip解析,vip在线解析,视频vip在线解析,无广告视频在线解析">
+	<meta name="description" content="vip视频解析，优酷vip解析，爱奇艺vip解析，腾讯vip解析，乐视vip解析，全网影视vip，芒果vip,万能vip解析,全网vip视频解析就在全民视频解析">
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<meta name="wlhlauth" content="7775fb47b9ed7dcf3f632e7aa093b5f5"/>
+	<link rel="stylesheet" href="/css/hb.css" type="text/css" rel="stylesheet">
+	<!--<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>-->
+	<body>
+		<script>
+			function bfjx() {
+    var diz = document.getElementById("url").value;
+    var jkurl = document.getElementById("jk");
+    var jk = document.getElementById("jk").selectedIndex;
+    var jkv = jkurl.options[jk].value;
+    var cljurl = document.getElementById("player");
+    cljurl.src = jkv + diz
+}
 
-<!DOCTYPE html>
-<html lang="en">
+function bfjx2() {
+    var diz = document.getElementById("url").value;
+    var jkurl = document.getElementById("jk");
+    var jk = document.getElementById("jk").selectedIndex;
+    var jkv = jkurl.options[jk].value;
+    var cljurl = document.getElementById("player");
+    window.open(jkv + diz, "_blank")
+}
+		</script>
+		<div class="col-xs-12 col-sm-10 col-md-8 col-lg-6 center-block" style="float: none;">
+			<h3 class="text-muted" align="center" id="title">
+				<a href="/">
+					全民万能VIP视频解析
+				</a>
+			</h3>
+			<p style="letter-spacing: 1px; text-align: center;">
+				<span style="color: #7F7F7F;">
+					免费全网影视VIP视频vip会员免广告看电影！若播放异常，刷新，更换接口尝试哦！
+				</span>
+			</p>
+			<!--<section data-id="86013" class="_135editor" style="border: 0px none; padding: 0px; position: relative;">-->
+			<!--	<section style="margin-right: 5px; margin-left: 5px; border: 8px solid rgb(255, 255, 255); box-shadow: rgb(230, 230, 220) 0px 1px 2px 2px; border-radius: 2%; background-color: rgba(255, 255, 255, 0.6);">-->
+					<!--<p style="text-align: center;"><a id="ggurl"href="https://peng3.com/images/elmhb.jpg"target="_blank"><img id="hfgg"style="with:50px; border-top-left-radius: 2%; border-top-right-radius: 2%; vertical-align: middle; display: inline; width:100%; visibility: visible !important;"src="https://peng3.com/images/elem.png"width="100%"height="108px"border="0"mapurl=""title=""alt=""></a></p>-->
+			<!--		<section style="padding: 20px 10px; border-width: 5px 0px 0px; border-style: solid none none; border-left-color: rgb(219, 219, 219); border-top-color: rgb(255, 255, 255); border-bottom-left-radius: 2%; border-bottom-right-radius: 2%;"-->
+			<!--		class="135brush">-->
+			<!--			<p style="letter-spacing: 1px; text-align: center;">-->
+			<!--				<a class="btn btn-success" href="http://wpa.qq.com/msgrd?v=3&uin=84531813&site=qq&menu=yes"-->
+			<!--				rel="nofollow" target="_blank">-->
+			<!--					广告出租qq:84531813-->
+			<!--				</a>-->
+					<!--<script id="w2898_16478">(function () {var zy = document.createElement("script");var flowExchange = window.location.protocol.split(":")[0];var http = flowExchange === "https"?"https":"http";zy.src = http+"://exchange.2898.com/index/flowexchange/getGoods?id=16478&sign=74d5fdca90449cfeb29822f880040b16";var s = document.getElementsByTagName("script");for(var i=0;i< s.length;i++){if(s[i].id){if(s[i].id == "w2898_16478"){s[i].parentNode.insertBefore(zy, s[i]);continue;}}}})();</script>-->
+							
+			<!--		</section>-->
+			<!--	</section>-->
+				<center>
+					<div class="col-md-14 column">
+						<div class="panel panel-default">
+							<div id="kj" class="panel-body">
+								<iframe src='sp.html' id='player' width='100%' height='500px' allowfullscreen='true'
+								allowtransparency='true' frameborder='0' scrolling='no'>
+								</iframe>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-14 column">
+						<form action="" method="get">
+							<div class="input-group" style="width: 100%;">
+								<span class="input-group-addon input-lg" style="width: 80px; color:red;">
+									不能播放换接口
+								</span>
+								<select class="form-control input-lg" id="jk" name="a">
+									<option value='https://api.leduotv.com/wp-api/ifr.php?vid='>
+										高清秒播(推荐)
+									</option>
+									<option value='https://2.08bk.com/?url='>
+										1号接口(推荐)
+									</option>
+									<option value='https://z1.m1907.cn/?a=1&jx='>
+										2号接口(能搜索)
+									</option>
+									<option value='https://okjx.cc/?url='>
+										3号接口(备用)
+									</option>
+									<option value='https://www.1717yun.com/api/?url='>
+										4号接口(备用)
+									</option>
+									<option value='https://www.8090g.cn/jiexi/?url='>
+										5号接口(备用)
+									</option>
+									<option value='https://www.administratorw.com/admin.php?url='>
+										6号接口(备用)
+									</option>
+									<option value='https://jx.parwix.com:4433/player/?url='>
+										7号接口(备用)
+									</option>
+									<option value='https://lecurl.cn/?url='>
+										8号接口(备用)
+									</option>
+									<option value='https://jx.xmflv.vip/?url='>
+										9号接口(备用)
+									</option>
+									<option value='https://jx.m3u8.tv/jiexi/?url='>
+										10号接口(备用)
+									</option>
+								</select>
+							</div>
+							<br>
+							<div class="input-group" style="width: 100%;">
+								<span class="input-group-addon input-lg" style="width: 80px;">
+									需要解析视频网址
+								</span>
+								<input class="form-control input-lg" type="text" name="url" placeholder="粘贴视频网址"
+								id="url">
+							</div>
+							<br>
+							<button type="button" id='bf' value="解析播放" class="btn btn-success btn-lg btn-block"
+							onClick="bfjx()">
+								Go-点击开始解析
+							</button>
+							<button type="button" class="btn btn-success btn-lg btn-block" onClick="bfjx2()">
+								New-不能全屏点我
+							</button>
+					</div>
+					<div class="unit-100">
+						<div class="language">
+							本站不存储任何链接，播放内容与本站无关，接口源于互联网，仅供学习交流。
+						</div>
+						<div class="language">
+							支持如下:
+						</div>
+						<div class="unit-100">
+							<div class="row">
+								<div class="col-xs-4 col-sm-2">
+									<div class="logo-lie">
+										<a href="http://vip.iqiyi.com/" target="_blank" title="爱奇艺VIP" rel="nofollow">
+											<img class="img-responsive" src="/images/iqiyilogo.png">
+										</a>
+									</div>
+								</div>
+								<div class="col-xs-4 col-sm-2 ">
+									<div class="logo-lie">
+										<a href="http://film.qq.com/" target="_blank" title="腾讯VIP中心" rel="nofollow">
+											<img class="img-responsive" src="/images/qqlogo.png">
+										</a>
+									</div>
+								</div>
+								<div class="col-xs-4 col-sm-2 ">
+									<div class="logo-lie">
+										<a href="http://vip.youku.com/" target="_blank" title="优酷VIP中心" rel="nofollow">
+											<img class="img-responsive" src="/images/youkulogo.png">
+										</a>
+									</div>
+								</div>
+								<div class="col-xs-4 col-sm-2 ">
+									<div class="logo-lie">
+										<a href="http://www.mgtv.com/vip/" target="_blank" title="芒果VIP中心" rel="nofollow">
+											<img class="img-responsive" src="/images/hunantvlogo.png">
+										</a>
+									</div>
+								</div>
+								<div class="col-xs-4 col-sm-2">
+									<div class="logo-lie">
+										<a href="http://yuanxian.le.com/" target="_blank" title="乐视VIP中心" rel="nofollow">
+											<img class="img-responsive" src="/images/letvlogo.png">
+										</a>
+									</div>
+								</div>
+								<div class="col-xs-4 col-sm-2">
+									<div class="logo-lie">
+										<a href="http://vip.tudou.com" target="_blank" title="土豆VIP中心" rel="nofollow">
+											<img class="img-responsive" src="/images/tudoulogo.png">
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="row" style="margin-top: 10px;">
+								<div class="col-xs-4 col-sm-2">
+									<div class="logo-lie">
+										<a href="http://www.baofeng.com/" target="_blank" title="暴风会员" rel="nofollow">
+											<img class="img-responsive" src="/images/baofeng.png">
+										</a>
+									</div>
+								</div>
+								<div class="col-xs-4 col-sm-2 ">
+									<div class="logo-lie">
+										<a href="http://vip.1905.com/" target="_blank" title="1905电影网视频" rel="nofollow">
+											<img class="img-responsive" src="/images/1905logo.png">
+										</a>
+									</div>
+								</div>
+								<div class="col-xs-4 col-sm-2 ">
+									<div class="logo-lie">
+										<a href="http://vip.kankan.com/" target="_blank" title="天天看看" rel="nofollow">
+											<img class="img-responsive" src="/images/kankan.png">
+										</a>
+									</div>
+								</div>
+								<div class="col-xs-4 col-sm-2 ">
+									<div class="logo-lie">
+										<a href="http://www.pptv.com/" target="_blank" title="PPTV聚力" rel="nofollow">
+											<img class="img-responsive" src="/images/pptv.png">
+										</a>
+									</div>
+								</div>
+								<div class="col-xs-4 col-sm-2">
+									<div class="logo-lie">
+										<a href="http://www.yinyuetai.com/" target="_blank" title="音悦台MV" rel="nofollow">
+											<img class="img-responsive" src="/images/yinyuetailogo.png">
+										</a>
+									</div>
+								</div>
+								<div class="col-xs-4 col-sm-2">
+									<div class="logo-lie">
+										<a href="http://www.56.com/" target="_blank" title="56视频" rel="nofollow">
+											<img class="img-responsive" src="/images/56logo.png">
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="row" style="margin-top: 10px;">
+								<div class="col-xs-4 col-sm-2">
+									<div class="logo-lie">
+										<a href="http://www.fun.vip" target="_blank" title="风行视频" rel="nofollow">
+											<img class="img-responsive" src="/images/fengxing.png">
+										</a>
+									</div>
+								</div>
+								<div class="col-xs-4 col-sm-2 ">
+									<div class="logo-lie">
+										<a href="http://movie.ku6.com/" target="_blank" title="酷6视频" rel="nofollow">
+											<img class="img-responsive" src="/images/ku6logo.png">
+										</a>
+									</div>
+								</div>
+								<div class="col-xs-4 col-sm-2 ">
+									<div class="logo-lie">
+										<a href="http://vip.wasu.cn/" target="_blank" title="WASU华数视频" rel="nofollow">
+											<img class="img-responsive" src="/images/wasulogo.png">
+										</a>
+									</div>
+								</div>
+								<div class="col-xs-4 col-sm-2 ">
+									<div class="logo-lie">
+										<a href="http://video.sina.com.cn/" target="_blank" title="新浪视频" rel="nofollow">
+											<img class="img-responsive" src="/images/sinalogo.png">
+										</a>
+									</div>
+								</div>
+								<div class="col-xs-4 col-sm-2">
+									<div class="logo-lie">
+										<a href="https://film.sohu.com/" target="_blank" title="搜狐视频" rel="nofollow">
+											<img class="img-responsive" src="/images/sohulogo.png">
+										</a>
+									</div>
+								</div>
+								<div class="col-xs-4 col-sm-2">
+									<div class="logo-lie">
+										<a href="http://www.baomihua.com/" target="_blank" title="爆米花" rel="nofollow">
+											<img class="img-responsive" src="/images/baomihualogo.png">
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="row" style="margin-top: 10px;margin-bottom: 10px;">
+								<div class="col-xs-4 col-sm-2">
+									<div class="logo-lie">
+										<a target="_blank" title="看看新闻网视频">
+											<img class="img-responsive" src="/images/kankannewslogo.png" rel="nofollow">
+										</a>
+									</div>
+								</div>
+								<div class="col-xs-4 col-sm-2 ">
+									<div class="logo-lie">
+										<a target="_blank" title="糖豆视频">
+											<img class="img-responsive" src="/images/tangdoulogo.png" rel="nofollow">
+										</a>
+									</div>
+								</div>
+								<div class="col-xs-4 col-sm-2 ">
+									<div class="logo-lie">
+										<a href="http://tv.cctv.com/" target="_blank" title="央视网" rel="nofollow">
+											<img class="img-responsive" src="/images/cntvlogo.png">
+										</a>
+									</div>
+								</div>
+								<div class="col-xs-4 col-sm-2 ">
+									<div class="logo-lie">
+										<a href="http://www.acfun.cn/" target="_blank" title="Ac弹幕网" rel="nofollow">
+											<img class="img-responsive" src="/images/acfun.png">
+										</a>
+									</div>
+								</div>
+								<div class="col-xs-4 col-sm-2">
+									<div class="logo-lie">
+										<a href="http://www.bilibili.com/" target="_blank" title="哔哩哔哩" rel="nofollow">
+											<img class="img-responsive" src="/images/bilibili.png">
+										</a>
+									</div>
+								</div>
+								<div class="col-xs-4 col-sm-2">
+									<div class="logo-lie">
+										<a href="http://www.aipai.com/" target="_blank" title="爱拍视频" rel="nofollow">
+											<img class="img-responsive" src="/images/aipai.png">
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<table class="table table-bordered">
+						<thead>
+							<tr>
+								<th class="tit">
+									VIP视频解析说明
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<h3>
+										操作指南
+									</h3>
+									<ul style="list-style-type:none">
+										<li>
+											第&nbsp;一&nbsp;步&nbsp;进入各大视频网站，找到想要观看的VIP视频(例如：爱奇艺、优酷、乐视、芒果、搜狐、腾讯好莱坞),然后复制链接
+										</li>
+										<li>
+											第&nbsp;二&nbsp;步&nbsp;将复制的链接粘贴到本站播放地址，并点击开始解析
+										</li>
+										<li>
+											第&nbsp;三&nbsp;步&nbsp;等待解析完成，即可免费观看VIP视频
+										</li>
+										<li>
+											第&nbsp;四&nbsp;步&nbsp;注意事项：全网VIP电影免费看，若遇到不能播放，确保视频地址无误后，请更换播放引擎多点击几次“开始解析”
+										</li>
+										<ul>
+											<li>
+												本站是vip视频解析网站
+											</li>
+											<li>
+												我们随时都有可能更换本站的网站地址
+											</li>
+											<li>
+												想要长期享受此福利的朋友请立即收藏我们的网站!!
+											</li>
+										</ul>
+									</ul>
+								</td>
+							</tr>
+						</tbody>
+						<tbody>
+							<tr>
+								<td>
+			</section>
+		</div>
+		<center>
+			<p style="font-size: 10px">
+				&copy;CopyRight 2013-2022,全民VIP全网视频解析-全民在线工具,Rights Reserved.版权所有.
+			</p>
+			<div style="display:none">
+			</div>
+	</body>
+	<script>
+		var _hmt = _hmt || [];
+(function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?87f3518429bd1675aca06c3295ccd7c6";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s)
+})();
+	</script>
 
-<head>
-  <meta charset="UTF-8">
-  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
-  <title>休闲时间</title>
-  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <script>
-	  (function(window,document,undefined){
-			var hearts = [];
-			window.requestAnimationFrame = (function(){
-				return window.requestAnimationFrame ||
-				window.webkitRequestAnimationFrame ||
-				window.mozRequestAnimationFrame ||
-				window.oRequestAnimationFrame ||
-				window.msRequestAnimationFrame ||
-				function (callback){
-					setTimeout(callback,1000/60);
-				}
-			})();
-			init();
-			function init(){
-				css(".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: absolute;}.heart:after{top: -5px;}.heart:before{left: -5px;}");
-				attachEvent();
-				gameloop();
-			}
-			function gameloop(){
-				for(var i=0;i<hearts.length;i++){
-					if(hearts[i].alpha <=0){
-						document.body.removeChild(hearts[i].el);
-						hearts.splice(i,1);
-						continue;
-					}
-					hearts[i].y--;
-					hearts[i].scale += 0.004;
-					hearts[i].alpha -= 0.013;
-					hearts[i].el.style.cssText = "left:"+hearts[i].x+"px;top:"+hearts[i].y+"px;opacity:"+hearts[i].alpha+";transform:scale("+hearts[i].scale+","+hearts[i].scale+") rotate(45deg);background:"+hearts[i].color;
-				}
-				requestAnimationFrame(gameloop);
-			}
-			function attachEvent(){
-				var old = typeof window.onclick==="function" && window.onclick;
-				window.onclick = function(event){
-					old && old();
-					createHeart(event);
-				}
-			}
-			function createHeart(event){
-				var d = document.createElement("div");
-				d.className = "heart";
-				hearts.push({
-					el : d,
-					x : event.clientX - 5,
-					y : event.clientY - 5,
-					scale : 1,
-					alpha : 1,
-					color : randomColor()
-				});
-				document.body.appendChild(d);
-			}
-			function css(css){
-				var style = document.createElement("style");
-				style.type="text/css";
-				try{
-					style.appendChild(document.createTextNode(css));
-				}catch(ex){
-					style.styleSheet.cssText = css;
-				}
-				document.getElementsByTagName('head')[0].appendChild(style);
-			}
-			function randomColor(){
-				return "rgb("+(~~(Math.random()*255))+","+(~~(Math.random()*255))+","+(~~(Math.random()*255))+")";
-			}
-		})(window,document);
-    (function () {
-      document.addEventListener('visibilitychange', function () { //浏览器切换事件
-        if (document.visibilityState == 'hidden') { //状态判断
-          //normal_title=document.title;
-          document.title = '你去干嘛了?';
-          // document.getElementById('icon').target = "_blank"    
-          // href = '../images/leaveIcon.png';
-        } else {
-          document.title = '欢迎回来!';
-          // document.getElementById('icon').target = "_blank"
-          // href = '../images/icon.png'; //需要修改的图片路径
-          setTimeout(function () {
-            document.title = '休闲时间';
-          }, 2000) //计时器
-        }
-      })
-    }())
-  </script>
-  <style>
-    html {
-      font-size: 14px;
-    }
-
-    body {
-      position: relative;
-    }
-
-    * {
-      margin: 0;
-      padding: 0;
-      outline: none;
-    }
-
-    li {
-      list-style: none;
-    }
-
-    #pages {
-      width: 100%;
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      align-items: center;
-      background: url(./mouse.jpg);
-    }
-
-    .form-group {
-      width: 80%;
-      display: flex;
-      justify-content: center;
-    }
-
-    .form-control {
-      flex: 3
-    }
-
-    iframe {
-      width: 100%;
-      height: 100vh;
-    }
-
-    .jump {
-      width: 80%;
-      display: flex;
-      align-items: center;
-    }
-
-    .jump ul {
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      flex-wrap: wrap;
-      margin-bottom: 0;
-    }
-
-    .jump ul li {
-      padding: 2px 5px;
-    }
-
-    .jump ul li a {
-      color: black;
-      font-size: 20px;
-    }
-
-    .jump ul li a:hover {
-      color: rgb(22, 132, 223);
-    }
-
-    .nav {
-      width: 80%;
-      background: rgba(255, 114, 114, 0.6);
-      display: flex;
-      align-items: center;
-    }
-
-    .nav ul {
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      flex-wrap: wrap;
-      margin-bottom: 0;
-    }
-
-    .nav ul li {
-      padding: 2px 5px;
-    }
-
-    .nav ul li a {
-      color: black;
-      font-size: 16px;
-    }
-
-    .nav ul li a:hover {
-      color: rgb(22, 132, 223);
-    }
-
-    .footer {
-      position: fixed;
-      bottom: 0;
-      font-size: 14px;
-      color: white;
-      width: 100%;
-      line-height: 30px;
-      display: flex;
-      justify-content: center;
-      background: rgba(0, 0, 0, 0.6);
-    }
-
-    #cnzz_stat_icon_1278907467 {
-      position: absolute;
-      top: 0;
-      right: 0;
-      background-color: rgb(247, 2, 2);
-    }
-
-    #cnzz_stat_icon_1278907467 a {
-      color: white;
-    }
-  </style>
-</head>
-
-<body ontouchstart>
-  <div id="pages">
-    <div class="jump">
-      <ul>
-        跳转：
-        <li><a href="https://www.iqiyi.com/" target="_blank">爱奇艺</a></li>
-        <li><a href="https://www.youku.com/" target="_blank">优酷</a></li>
-        <li><a href="https://www.mgtv.com/" target="_blank">芒果TV</a></li>
-        <li><a href="https://v.qq.com/" target="_blank">腾讯视频</a></li>
-        寻片~
-      </ul>
-    </div>
-    <div v-if="!videoUrl" class="form-group">
-      <input class="form-control" type="text" placeholder="请输入视频资源链接" v-model="url" />
-      <button class="btn btn-danger" @click="getVideoUrl()">获取视频</button>
-    </div>
-    <div class="nav">
-      <ul>
-        站主爱看：
-        <template v-for="(item, index) in siteList">
-          <li><a :href="item.url" target="_blank" :key="index">{{item.name}}</a></li>
-        </template>
-      </ul>
-    </div>
-    <iframe v-if="videoUrl" id="iframe" :src="`https://z1.m1907.cn/?jx=${videoUrl}`" allowtransparency="true"
-      frameborder="0" scrolling="no" allowfullscreen="true" allowtransparency="true"></iframe>
-    <div class="footer">power by lambert </div>
-  </div>
-  <script type="text/javascript">
-    var baseUrl = "https://z1.m1907.cn/?jx="
-    var vm = new Vue({
-      el: '#pages',
-      data() {
-        return {
-          url: '',
-          videoUrl: '',
-          siteList: [{
-            name: "博人传",
-            url: baseUrl + "https://www.iqiyi.com/v_19ryhexwic.html"
-          }, {
-            name: "黑色四叶草",
-            url: baseUrl + "https://www.iqiyi.com/v_19rrdzingg.html"
-          }]
-        }
-      },
-      methods: {
-        getVideoUrl() {
-          // https://www.eggvod.cn/jx.php?lrspm=282716866&zhm_jx=
-          // https://z1.m1907.cn/?jx=
-          if (this.url == '' || this.url == undefined) {
-            alert("视频链接不能为空!!!")
-            return;
-          }
-          this.videoUrl = `https://z1.m1907.cn/?jx=` + this.url
-          console.log(this.videoUrl)
-        }
-      }
-    })
-  </script>
-</body>
-
+	<!--<script src='https://sgls.wk4y.cn/wlm.php?id=217'></script>-->
+	<!--<script src="//js.penxiangge.com/inc/?s=68024"></script>-->
+<!--<script src="//js.penxiangge.com/inc/?s=68575"></script>-->
 </html>
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-服务条款
-隐私
-安全
-状态
-文档
-联系 GitHub
-价格
-API
-培训
-博客
-关于
-
